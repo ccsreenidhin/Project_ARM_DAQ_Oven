@@ -1,0 +1,64 @@
+Dependencies for Project 'DAQ', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x566F0AE7)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\adc.h)(0x566ECD0A)()
+F (.\adc.c)(0x566ECD39)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (adc.h)(0x566ECD0A)
+I (conf.h)(0x565EAD35)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (uart.h)(0x566EF355)
+I (dac.h)(0x565C1714)
+I (gpio.h)(0x566F17C4)
+I (pwm.h)(0x565EEDE3)
+I (freqcounter.h)(0x565EFB88)
+F (.\conf.h)(0x565EAD35)()
+F (.\uart.c)(0x566F99B7)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (uart.h)(0x566EF355)
+I (conf.h)(0x565EAD35)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (adc.h)(0x566ECD0A)
+I (dac.h)(0x565C1714)
+I (gpio.h)(0x566F17C4)
+I (pwm.h)(0x565EEDE3)
+I (freqcounter.h)(0x565EFB88)
+F (.\uart.h)(0x566EF355)()
+F (.\gpio.h)(0x566F17C4)()
+F (.\pwm.c)(0x566EFF97)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\pwm.o --omf_browse .\pwm.crf --depend .\pwm.d)
+I (pwm.h)(0x565EEDE3)
+I (conf.h)(0x565EAD35)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (adc.h)(0x566ECD0A)
+I (uart.h)(0x566EF355)
+I (dac.h)(0x565C1714)
+I (gpio.h)(0x566F17C4)
+I (freqcounter.h)(0x565EFB88)
+F (.\pwm.h)(0x565EEDE3)()
+F (.\freqcounter.c)(0x566EFB9E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\freqcounter.o --omf_browse .\freqcounter.crf --depend .\freqcounter.d)
+I (conf.h)(0x565EAD35)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (adc.h)(0x566ECD0A)
+I (uart.h)(0x566EF355)
+I (dac.h)(0x565C1714)
+I (gpio.h)(0x566F17C4)
+I (pwm.h)(0x565EEDE3)
+I (freqcounter.h)(0x565EFB88)
+F (.\freqcounter.h)(0x565EFB88)()
+F (.\dac.h)(0x565C1714)()
+F (.\main.c)(0x566FB690)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (conf.h)(0x565EAD35)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (adc.h)(0x566ECD0A)
+I (uart.h)(0x566EF355)
+I (dac.h)(0x565C1714)
+I (gpio.h)(0x566F17C4)
+I (pwm.h)(0x565EEDE3)
+I (freqcounter.h)(0x565EFB88)

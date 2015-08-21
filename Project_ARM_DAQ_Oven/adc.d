@@ -1,0 +1,11 @@
+.\adc.o: adc.c
+.\adc.o: adc.h
+.\adc.o: conf.h
+.\adc.o: C:\Keil\ARM\Inc\Philips\LPC214X.H
+.\adc.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\adc.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\adc.o: uart.h
+.\adc.o: dac.h
+.\adc.o: gpio.h
+.\adc.o: pwm.h
+.\adc.o: freqcounter.h
